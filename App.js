@@ -30,7 +30,6 @@ const renderSongItem = ({ item, index }) => {
 
 const SongFlatList = ({tracks}) => {
   //render items with album image, song title, song artist, song album, song duration, and song index
- //console.log(tracks)
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
